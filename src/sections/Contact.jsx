@@ -1,9 +1,11 @@
 import emailjs from '@emailjs/browser';
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
+import useAlert from '../../hooks/useAlert';
+import Alert from '../components/Alert';
 
 const Contact = () => {
   const formRef = useRef();
-
+  const { showAlert, hideAlert, alert } = useAlert();
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -14,14 +16,14 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  //   service_y76l33m
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      setIsLoading(true);
-      await emailjs.send(
-        'service_y76l33m',
-        'template_rvkj4ot',
+    setIsLoading(true);
+
+    emailjs
+      .send(
+        import.meta.env.NEXT_PUBLIC_EMAIL_SERVICE_ID,
+        import.meta.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: 'Basofi',
@@ -29,29 +31,51 @@ const Contact = () => {
           to_email: 'basofiibnur@gmail.com',
           message: form.message,
         },
-        'qrqKZkstGQPQj6V_6'
+        import.meta.env.NEXT_PUBLIC_EMAIL_KEY
+      )
+      .then(
+        () => {
+          setIsLoading(false);
+          showAlert({
+            show: true,
+            text: 'Thank you for your message 😃',
+            type: 'success',
+          });
+
+          setTimeout(() => {
+            hideAlert(false);
+            setForm({
+              name: '',
+              email: '',
+              message: '',
+            });
+          }, [3000]);
+        },
+        (error) => {
+          setIsLoading(false);
+          console.error(error);
+
+          showAlert({
+            show: true,
+            text: "I didn't receive your message 😢",
+            type: 'danger',
+          });
+        }
       );
-      setIsLoading(false);
-      alert('Your message has been sent!');
-      setForm({ name: '', email: '', message: '' });
-    } catch (error) {
-      console.log(error);
-      setIsLoading(false);
-      alert('Something went wrong!');
-    }
   };
 
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="contact">
+      {alert.show && <Alert {...alert} />}
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img
           src="/assets/terminal.png"
           alt="terminal"
-          className="absolute inset-0 min-h-screen"
+          className="absolute inset-0 min-h-[screen]"
         />
-        <div className="contact-container">
+        <div className="contact-container lg:!mt-[150px]">
           <h3 className="head-text">Let&apos;s talk</h3>
-          <p className="text-lg text-white-600">
+          <p className="text-lg text-white-600 mt-3">
             Whether you&apos;re looking to build a new website,
             improve your existing platform, or bring a unique project
             to life, I&apos;m here to help. Let&apos;s build something
@@ -82,7 +106,7 @@ const Contact = () => {
                 name="email"
                 className="field-input"
                 onChange={handleChange}
-                value={form.name}
+                value={form.email}
                 required
                 placeholder="johndoe@gmail.com"
               />
@@ -106,11 +130,13 @@ const Contact = () => {
               disabled={isLoading}
             >
               {isLoading ? 'Sending...' : 'Send Message'}
-              <img
-                src="/assets/arrow-up.png"
-                alt="arrowup"
-                className="field-btn_arrow"
-              />
+              {!isLoading && (
+                <img
+                  src="/assets/arrow-up.png"
+                  alt="arrowup"
+                  className="field-btn_arrow"
+                />
+              )}
             </button>
           </form>
         </div>
