@@ -15,6 +15,11 @@ export const navLinks = [
     href: '#work',
   },
   {
+    id: 5,
+    name: 'Experience',
+    href: '#experience',
+  },
+  {
     id: 4,
     name: 'Contact',
     href: '#contact',
@@ -278,32 +283,52 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
+    name: 'Telkom Indonesia',
+    pos: 'Front End Developer - Full Time',
+    duration: '2023 - Present',
     title:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-    icon: '/assets/framer.svg',
+      'As a Frontend Developer at Telkom Indonesia, I play a vital role in enhancing user experiences across multiple projects within the country’s leading telecommunications company.',
+    icon: '/assets/telkom.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
+    name: 'INA Digital',
+    pos: 'Front End Developer - Full Time',
+    duration: '2024',
     title:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/figma.svg',
+      'I contributed to transforming government digital services by delivering high-quality, efficient public offerings. Working alongside a diverse team of designers, product owners, backend developers, and QA professionals, I ensured our product met national administration standards and effectively addressed user needs.',
+    icon: '/assets/inadigital.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
+    name: 'The Digital Cellar',
+    pos: 'Front End Developer - Freelance',
+    duration: '2023 - 2024',
     title:
-      'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-    icon: '/assets/notion.svg',
+      'I contributed to the development of an all-in-one super app for mobile and desktop, which included features like event ticket booking, online live events, and educational tools similar to Udemy, aiming to enhance user accessibility and engagement.',
+    icon: '/assets/digital.jpg',
     animation: 'salute',
+  },
+  {
+    id: 4,
+    name: 'Confiction Labs',
+    pos: 'Front End Developer - Freelance',
+    duration: '2022 - 2023',
+    title:
+      'At Confiction Labs, I had the opportunity to help redefine the Web3 gaming experience by contributing to various aspects of the project.',
+    icon: '/assets/confiction.png',
+    animation: 'victory',
+  },
+  {
+    id: 5,
+    name: 'Tokocrypto',
+    pos: 'Front End Developer - Full Time',
+    duration: '2022',
+    title:
+      'During my time in Tokocrypto, I helped create a streamlined coworking and event space booking system. As a frontend developer, I leveraged Next.js and Tailwind CSS to build a responsive platform focused on user experience and efficient data processing.',
+    icon: '/assets/tokocrypto.png',
+    animation: 'victory',
   },
 ];

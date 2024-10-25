@@ -8,12 +8,12 @@ import Developer from '../components/Developer';
 const Experience = () => {
   const [animationName, setAnimationName] = useState('idle');
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="experience">
       <div className="w-full text-white-600">
-        <h3 className="head-text">My Work Experience</h3>
+        <h3 className="head-text">My Experience</h3>
 
         <div className="work-container">
-          <div className="work-canvas">
+          <div className="work-canvas hidden md:block">
             <Canvas>
               <ambientLight intensity={7} />
               <spotLight
@@ -69,7 +69,7 @@ const Experience = () => {
                         <img
                           src={icon}
                           alt={name}
-                          className="w-full h-full"
+                          className="w-full h-full rounded-2xl"
                         />
                       </div>
                       <div className="work-content_bar" />

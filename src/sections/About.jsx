@@ -15,6 +15,13 @@ const About = () => {
     }, 3000);
   };
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="c-space my-20 xl:mt-[90px]" id="about">
       <div className="c-space my-20">
@@ -95,6 +102,7 @@ const About = () => {
                   name={'Contact Me'}
                   isBeam
                   containerClass={'w-full mt-10'}
+                  onClick={() => scrollToSection('contact')}
                 />
               </div>
             </div>
@@ -105,7 +113,7 @@ const About = () => {
               <img
                 src="/assets/grid3.png"
                 alt="grid-3"
-                className="w-full sm:h-[266px] h-fit object-contain"
+                className="w-full hidden md:block sm:h-[266px] h-fit object-contain"
               />
 
               <div>
@@ -133,7 +141,7 @@ const About = () => {
               <img
                 src="/assets/grid4.png"
                 alt="grid-4"
-                className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
+                className="w-full hidden md:block md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
               />
 
               <div className="space-y-2">
