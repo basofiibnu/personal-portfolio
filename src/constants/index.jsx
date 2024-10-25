@@ -58,13 +58,12 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    title: 'INA Digital',
+    desc: `INA DIGITAL is not just an application or platform, but a key enabler of Indonesia's Government Digital Services Ecosystem, acting as an accelerator for digital transformation in government services. INA DIGITAL is responsible for developing, integrating, maintaining, and managing digital infrastructure to deliver public services that are higher in quality, more reliable, and more efficient.`,
+    subdesc: `As a strategic partner in Indonesia's digital transformation, INA DIGITAL facilitates seamless integration of government services. By providing a reliable digital infrastructure, it enhances public service delivery, ensuring efficiency, transparency, and accessibility for citizens across the nation.`,
+    href: 'https://inadigital.co.id/',
+    texture: '/textures/project/inadigital.mp4',
+    logo: '/assets/inadigital.svg',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -78,30 +77,31 @@ export const myProjects = [
         path: '/assets/react.svg',
       },
       {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
       },
       {
         id: 3,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
+
       {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'INAku',
+    desc: `INAku is an all-in-one digital portal that simplifies access to a wide range of government services for Indonesian citizens. By integrating various public services into a single platform, INAku aims to enhance convenience and streamline interactions with the government, making essential resources more accessible to everyone.`,
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+      'With a user-friendly interface and secure systems, INAku empowers Indonesians to manage everything from official documentation and registrations to accessing public utilities and social services. Designed for ease of use, the platform offers a centralized solution that caters to the diverse needs of the community.',
+    href: 'https://inaku.go.id',
+    texture: '/textures/project/inaku.mp4',
+    logo: '/assets/inaku.svg',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -132,13 +132,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Confiction Portal',
+    desc: 'The Confiction One Portal is a centralized, secure platform that streamlines access to a wide range of services for registered users. Designed for efficient navigation, it helps users verify their identities and access various tools and resources all in one place.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'With a seamless registration and verification process, the Confiction One Portal ensures that users can securely connect with essential services. This portal prioritizes accessibility and user security, offering a unified experience for managing multiple service needs.',
+    href: 'https://one.confiction.com/portal',
+    texture: '/textures/project/confiction.mp4',
+    logo: '/assets/portal.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -165,19 +165,19 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'figma',
+        path: '/assets/figma.svg',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Hyperhire - Assignment Web',
+    desc: 'Hyperhire is a streamlined recruitment platform built for a Korean outsourcing company to efficiently share job opportunities and recruitment information. Designed as part of a technical assignment, the platform allows users to explore available positions and learn more about the company’s hiring needs, bringing essential recruitment details to the forefront.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+      'Developed with the latest Next.js, TypeScript, Tailwind CSS, and Framer Motion, Hyperhire combines powerful performance with a clean, responsive UI. The integration of smooth animations enhances user interaction, showcasing a modern and intuitive experience.',
+    href: 'https://siren-portfolio.vercel.app/',
+    texture: '/textures/project/hyperhire.mp4',
+    logo: '/assets/hyperhire.svg',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -208,13 +208,12 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    title: 'Hulu Repository',
+    desc: `A web app for browsing trending movies and TV series across categories like "Trending Now," "Top Rated," and genre collections. Featuring a clean, user-friendly design, it allows users to explore titles with details like release dates, ratings, and brief summaries.`,
+    subdesc: `Tech Stack: Built with Next.js and TypeScript, styled using Tailwind CSS, and enhanced with Framer Motion for smooth animations, this project showcases front-end development skills and a polished, interactive user experience.`,
+    href: 'https://hulurepository.vercel.app',
+    texture: '/textures/project/hulu.mp4',
+    logo: '/assets/hulu.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -236,11 +235,6 @@ export const myProjects = [
         id: 3,
         name: 'TypeScript',
         path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
       },
     ],
   },
