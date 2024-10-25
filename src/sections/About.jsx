@@ -144,7 +144,7 @@ const About = () => {
                 className="w-full hidden md:block md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
               />
 
-              <div className="space-y-2">
+              <div className="space-y-2 mt-5">
                 <p className="grid-headtext text-center">
                   Contact me at
                 </p>

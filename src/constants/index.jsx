@@ -293,7 +293,7 @@ export const workExperiences = [
   },
   {
     id: 2,
-    name: 'INA Digital',
+    name: `INA Digital - Under Telkom's Project`,
     pos: 'Front End Developer - Full Time',
     duration: '2024',
     title:
