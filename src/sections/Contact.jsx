@@ -71,15 +71,15 @@ const Contact = () => {
         <img
           src="/assets/terminal.png"
           alt="terminal"
-          className="absolute inset-0 min-h-[screen]"
+          className="absolute inset-0 min-h-screen"
         />
-        <div className="contact-container lg:!mt-[150px]">
-          <h3 className="head-text">Let&apos;s talk</h3>
+        <div className="contact-container">
+          <h3 className="head-text">Let’s Connect</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you&apos;re looking to build a new website,
-            improve your existing platform, or bring a unique project
-            to life, I&apos;m here to help. Let&apos;s build something
-            amazing together!
+            Whether you’re looking to create a new website, enhance an
+            existing platform, or bring a unique idea to life, I’m
+            here to help make it happen. Let’s collaborate and build
+            something exceptional together!
           </p>
 
           <form

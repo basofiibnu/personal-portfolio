@@ -37,8 +37,8 @@ const About = () => {
               <div>
                 <p className="grid-headtext">Hi, I am Basofi</p>
                 <p className="grid-subtext">
-                  An Experienced Developer with 3.5+ Years Focused on
-                  Creating User-Centric, Scalable Front-End Solutions
+                  Crafting Engaging, Scalable Front-End Solutions with
+                  3.5+ Years of Expertise
                 </p>
               </div>
             </div>
@@ -55,11 +55,11 @@ const About = () => {
               <div>
                 <p className="grid-headtext">Tech Stack</p>
                 <p className="grid-subtext">
-                  I specialize in JavaScript/TypeScript with a focus
-                  on React and Next.js ecosystems. Recently, I&apos;ve
-                  added Golang to my skill set as I work towards
-                  becoming a full-stack developer, expanding my
-                  expertise across the entire development stack.
+                  Specializing in JavaScript and TypeScript within the
+                  React and Next.js ecosystems, I focus on building
+                  seamless, user-centric web applications. I’m also
+                  expanding into backend development with Golang,
+                  working towards a versatile, full-stack skill set.
                 </p>
               </div>
             </div>
@@ -90,13 +90,16 @@ const About = () => {
               </div>
               <div>
                 <p className="grid-headtext">
-                  Remote-Ready Developer, Flexible Across Time Zones
+                  Remote-Ready Developer, Open to Opportunities Across
+                  Time Zones
                 </p>
                 <p className="grid-subtext">
-                  Based in Jakarta, Indonesia. I am currently
-                  expanding my skills in Golang to become a full-stack
-                  developer, and I am open to remote work
-                  opportunities.
+                  Based in Jakarta, Indonesia, I’m actively enhancing
+                  my backend skills in Golang to complement my
+                  front-end expertise, embracing full-stack
+                  development. Open to remote work and adaptable
+                  across time zones, I bring commitment and
+                  flexibility to global projects.
                 </p>
                 <Button
                   name={'Contact Me'}
@@ -119,17 +122,16 @@ const About = () => {
               <div>
                 <p className="grid-headtext">My Passion for Coding</p>
                 <p className="grid-subtext">
-                  I have always had a deep passion for solving
-                  problems and building things through code. To me,
-                  coding is not just a profession, but a creative
-                  outlet where I can bring ideas to life and solve
-                  real-world challenges. There&apos;s something
-                  incredibly fulfilling about breaking down complex
-                  problems, finding solutions, and seeing them take
-                  shape through the power of code. Whether it&apos;s
-                  building seamless user experiences or optimizing the
-                  performance of an application, I am constantly
-                  driven by the potential to make an impact through
+                  Coding has always been more than just a career for
+                  me—it’s a creative outlet where I can turn ideas
+                  into reality and tackle real-world challenges. I’m
+                  passionate about solving problems and building
+                  meaningful solutions through code, finding
+                  fulfillment in breaking down complex issues and
+                  watching my solutions come to life. Whether I’m
+                  crafting seamless user experiences or optimizing
+                  application performance, I’m constantly driven by
+                  the potential to create impactful, transformative
                   technology.
                 </p>
               </div>

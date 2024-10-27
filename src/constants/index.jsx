@@ -64,8 +64,8 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'INA Digital',
-    desc: `INA DIGITAL is not just an application or platform, but a key enabler of Indonesia's Government Digital Services Ecosystem, acting as an accelerator for digital transformation in government services. INA DIGITAL is responsible for developing, integrating, maintaining, and managing digital infrastructure to deliver public services that are higher in quality, more reliable, and more efficient.`,
-    subdesc: `As a strategic partner in Indonesia's digital transformation, INA DIGITAL facilitates seamless integration of government services. By providing a reliable digital infrastructure, it enhances public service delivery, ensuring efficiency, transparency, and accessibility for citizens across the nation.`,
+    desc: `INA DIGITAL is a driving force behind Indonesia's government digital transformation, building, integrating, and maintaining the digital infrastructure that supports quality, efficient public services. As a key player, INA DIGITAL ensures seamless access, transparency, and reliability in government services for citizens nationwide.`,
+    subdesc: ``,
     href: 'https://inadigital.co.id/',
     texture: '/textures/project/inadigital.mp4',
     logo: '/assets/inadigital.svg',
@@ -101,9 +101,8 @@ export const myProjects = [
   },
   {
     title: 'INAku',
-    desc: `INAku is an all-in-one digital portal that simplifies access to a wide range of government services for Indonesian citizens. By integrating various public services into a single platform, INAku aims to enhance convenience and streamline interactions with the government, making essential resources more accessible to everyone.`,
-    subdesc:
-      'With a user-friendly interface and secure systems, INAku empowers Indonesians to manage everything from official documentation and registrations to accessing public utilities and social services. Designed for ease of use, the platform offers a centralized solution that caters to the diverse needs of the community.',
+    desc: `INAku is an all-in-one digital portal simplifying Indonesian citizens' access to government services. With a secure, user-friendly design, it centralizes essential resources, allowing users to manage documentation, access utilities, and engage with public services all in one place.`,
+    subdesc: '',
     href: 'https://inaku.go.id',
     texture: '/textures/project/inaku.mp4',
     logo: '/assets/inaku.svg',
@@ -138,9 +137,8 @@ export const myProjects = [
   },
   {
     title: 'Confiction Portal',
-    desc: 'The Confiction One Portal is a centralized, secure platform that streamlines access to a wide range of services for registered users. Designed for efficient navigation, it helps users verify their identities and access various tools and resources all in one place.',
-    subdesc:
-      'With a seamless registration and verification process, the Confiction One Portal ensures that users can securely connect with essential services. This portal prioritizes accessibility and user security, offering a unified experience for managing multiple service needs.',
+    desc: 'The Confiction One Portal is a secure, centralized platform enabling registered users to access diverse services and resources. With streamlined registration and verification, it prioritizes both user security and ease of navigation, offering a cohesive experience for managing service needs.',
+    subdesc: '',
     href: 'https://one.confiction.com/portal',
     texture: '/textures/project/confiction.mp4',
     logo: '/assets/portal.png',
@@ -177,9 +175,8 @@ export const myProjects = [
   },
   {
     title: 'Hyperhire - Assignment Web',
-    desc: 'Hyperhire is a streamlined recruitment platform built for a Korean outsourcing company to efficiently share job opportunities and recruitment information. Designed as part of a technical assignment, the platform allows users to explore available positions and learn more about the company’s hiring needs, bringing essential recruitment details to the forefront.',
-    subdesc:
-      'Developed with the latest Next.js, TypeScript, Tailwind CSS, and Framer Motion, Hyperhire combines powerful performance with a clean, responsive UI. The integration of smooth animations enhances user interaction, showcasing a modern and intuitive experience.',
+    desc: 'Hyperhire is a recruitment platform developed for a Korean outsourcing firm to showcase job opportunities and hiring details. Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion, it combines performance and interactivity, providing a smooth, modern interface for job seekers.',
+    subdesc: '',
     href: 'https://siren-portfolio.vercel.app/',
     texture: '/textures/project/hyperhire.mp4',
     logo: '/assets/hyperhire.svg',
@@ -214,8 +211,8 @@ export const myProjects = [
   },
   {
     title: 'Hulu Repository',
-    desc: `A web app for browsing trending movies and TV series across categories like "Trending Now," "Top Rated," and genre collections. Featuring a clean, user-friendly design, it allows users to explore titles with details like release dates, ratings, and brief summaries.`,
-    subdesc: `Tech Stack: Built with Next.js and TypeScript, styled using Tailwind CSS, and enhanced with Framer Motion for smooth animations, this project showcases front-end development skills and a polished, interactive user experience.`,
+    desc: `This web app allows users to browse trending movies and TV series by category, including "Trending Now," "Top Rated," and various genres. Built with Next.js, TypeScript, and styled with Tailwind CSS and Framer Motion, it delivers a polished and engaging browsing experience.`,
+    subdesc: ``,
     href: 'https://hulurepository.vercel.app',
     texture: '/textures/project/hulu.mp4',
     logo: '/assets/hulu.png',
@@ -287,7 +284,7 @@ export const workExperiences = [
     pos: 'Front End Developer - Full Time',
     duration: '2023 - Present',
     title:
-      'As a Frontend Developer at Telkom Indonesia, I play a vital role in enhancing user experiences across multiple projects within the country’s leading telecommunications company.',
+      'As a Frontend Developer at Telkom Indonesia, I play a key role in elevating user experiences across a range of projects at the country’s largest telecommunications company. My contributions focus on creating intuitive, user-centered designs that enhance digital interactions, ensuring seamless functionality for millions of users across Indonesia.',
     icon: '/assets/telkom.png',
     animation: 'victory',
   },
@@ -297,7 +294,7 @@ export const workExperiences = [
     pos: 'Front End Developer - Full Time',
     duration: '2024',
     title:
-      'I contributed to transforming government digital services by delivering high-quality, efficient public offerings. Working alongside a diverse team of designers, product owners, backend developers, and QA professionals, I ensured our product met national administration standards and effectively addressed user needs.',
+      'In my work on transforming government digital services, I contributed to delivering reliable, efficient solutions for public use. Collaborating closely with designers, product owners, backend developers, and QA teams, I helped shape a product that not only adhered to national administration standards but also effectively served user needs at scale, providing streamlined access to essential services.',
     icon: '/assets/inadigital.svg',
     animation: 'clapping',
   },
@@ -307,7 +304,7 @@ export const workExperiences = [
     pos: 'Front End Developer - Freelance',
     duration: '2023 - 2024',
     title:
-      'I contributed to the development of an all-in-one super app for mobile and desktop, which included features like event ticket booking, online live events, and educational tools similar to Udemy, aiming to enhance user accessibility and engagement.',
+      'I had the opportunity to develop a cutting-edge super app for both mobile and desktop, integrating a broad range of features like event ticket booking, online live events, and educational tools similar to Udemy. This project aimed to enhance user engagement and accessibility, delivering an all-in-one experience that simplifies how users interact with learning, entertainment, and event planning.',
     icon: '/assets/digital.jpg',
     animation: 'salute',
   },
@@ -317,7 +314,7 @@ export const workExperiences = [
     pos: 'Front End Developer - Freelance',
     duration: '2022 - 2023',
     title:
-      'At Confiction Labs, I had the opportunity to help redefine the Web3 gaming experience by contributing to various aspects of the project.',
+      'At Confiction Labs, I was part of an exciting initiative to redefine the Web3 gaming experience. I contributed to various aspects of the project, applying my frontend expertise to create immersive, interactive elements that bridge the gap between gaming and blockchain, all while prioritizing smooth, engaging user experiences.',
     icon: '/assets/confiction.png',
     animation: 'victory',
   },
@@ -327,7 +324,7 @@ export const workExperiences = [
     pos: 'Front End Developer - Full Time',
     duration: '2022',
     title:
-      'During my time in Tokocrypto, I helped create a streamlined coworking and event space booking system. As a frontend developer, I leveraged Next.js and Tailwind CSS to build a responsive platform focused on user experience and efficient data processing.',
+      'While at Tokocrypto, I helped design a streamlined coworking and event space booking system, using Next.js and Tailwind CSS to build a responsive, user-friendly platform. My focus was on delivering a seamless user experience, optimizing data handling, and enhancing the overall functionality of the system for greater efficiency and ease of use.',
     icon: '/assets/tokocrypto.png',
     animation: 'victory',
   },
