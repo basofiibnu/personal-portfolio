@@ -71,9 +71,9 @@ const Contact = () => {
         <img
           src="/assets/terminal.png"
           alt="terminal"
-          className="absolute inset-0 min-h-screen"
+          className="absolute inset-0 min-h-[screen]"
         />
-        <div className="contact-container">
+        <div className="contact-container pt-20">
           <h3 className="head-text">Let’s Connect</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you’re looking to create a new website, enhance an
